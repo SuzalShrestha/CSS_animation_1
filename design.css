@@ -1,0 +1,31 @@
+#container{
+    height:800px;
+    width:800px;
+    background-color: grey;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+    flex-direction: column;
+}
+.box{
+    background-color: orchid;
+    display:block;
+    border-style: solid blue;
+    border:50px;
+    padding:50px;
+    margin:20px;
+    height: 100px;
+    width:100px;
+    transition:height 1s,width 1s,background-color 3s,transform 5s ;
+
+}
+.box:hover{
+    
+    height:200px;
+    width:200px;
+    background-color: red;
+    transform:rotate(180deg);
+
+
+}
